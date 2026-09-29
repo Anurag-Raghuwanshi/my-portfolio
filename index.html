@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anurag Raghuwanshi | Full Stack Developer & UI/UX Specialist</title>
+  <meta name="description" content="Portfolio & Resume of Anurag Raghuwanshi - Full Stack MERN Developer, Java Developer, and UI/UX Designer based in Indore & Bhopal, India.">
+  <meta name="theme-color" content="#08080A">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Gradients -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-center" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Anurag Raghuwanshi Home">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">ANURAG<span class="dot-accent">.</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#case-study" class="nav-link">Case Study</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Social Icons -->
+        <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+
+        <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+        </a>
+
+        <!-- Download Resume Button in Navbar -->
+        <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" download="Anurag-Raghuwanshi-Resume.pdf" class="btn btn-primary-sm" title="Download Official Resume PDF">
+          <span>Resume</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-links">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#resume" class="mobile-link">Resume & Credentials</a></li>
+        <li><a href="#case-study" class="mobile-link">Case Study</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+      <div class="mobile-socials">
+        <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" download="Anurag-Raghuwanshi-Resume.pdf" class="btn btn-primary btn-block">
+          <span>Download Resume PDF</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulsing-dot"></span>
+            <span>AVAILABLE FOR FULL-STACK & FRONTEND ROLES</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="title-line">FULL STACK & MERN</span>
+            <span class="title-accent">DEVELOPER</span>
+            <span class="title-sub">Java • React.js • Java script</script></span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hello, I'm <strong class="text-white">Anurag Raghuwanshi</strong>. Motivated Computer Science undergraduate with hands-on experience building responsive full-stack web applications using the MERN stack, robust REST APIs, and database-driven solutions with optimized frontend performance.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" download="Anurag-Raghuwanshi-Resume.pdf" class="btn btn-primary">
+              <span>Download Resume</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+            <a href="#resume" class="btn btn-secondary">
+              <span>View Credentials</span>
+            </a>
+            <a href="#projects" class="btn btn-outline">
+              <span>View Projects</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics Bar -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-value">MERN<span class="text-accent">+</span>Java</span>
+              <span class="stat-label">Core Tech Stack</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-value">500<span class="text-accent">+</span></span>
+              <span class="stat-label">DB Records Managed</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-card">
+              <span class="stat-value">2027<span class="text-accent"></span></span>
+              <span class="stat-label">B.E. CSIT Expected</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <!-- Ambient ring behind card -->
+            <div class="card-glow-halo"></div>
+
+            <div class="profile-card">
+              <div class="profile-photo-container">
+                <img src="assets/anurag-profile.jpg" alt="Anurag Raghuwanshi" class="profile-photo" loading="eager">
+                <div class="photo-overlay-badge">
+                  <span class="badge-role">Full Stack & Java Developer</span>
+                </div>
+              </div>
+
+              <div class="profile-card-info">
+                <div class="profile-name-row">
+                  <div>
+                    <h3 class="profile-name">Anurag Raghuwanshi</h3>
+                    <p class="profile-role">MERN Stack | Java | UI/UX</p>
+                  </div>
+                  <span class="active-tag">● Open to Work</span>
+                </div>
+
+                <!-- Quick links inside card -->
+                <div class="card-social-pills">
+                  <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="card-pill">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                  </a>
+                  <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="card-pill">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Telemetry Badge 1 -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon-box orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <div class="badge-title">Full-Stack MERN</div>
+                <div class="badge-sub">React • Node • Express • Mongo</div>
+              </div>
+            </div>
+
+            <!-- Floating Telemetry Badge 2 -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-box green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <div class="badge-title">Java & Core CS</div>
+                <div class="badge-sub">DSA • OOP • DBMS • SQL</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEDICATED RESUME & CREDENTIALS SECTION -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">OFFICIAL RESUME</div>
+          <h2 class="section-title">Education & <span class="text-accent">Qualifications</span></h2>
+          <p class="section-desc">
+            Directly from Anurag Raghuwanshi's official curriculum vitae. Download the full PDF or browse credentials below.
+          </p>
+
+          <div class="resume-download-banner">
+            <div class="download-banner-text">
+              <span class="file-badge">PDF DOCUMENT</span>
+              <strong class="file-name">Anurag-Raghuwanshi-Resume.pdf</strong>
+              <span class="file-meta">Full Stack Developer • Updated 2026</span>
+            </div>
+            <div class="download-banner-actions">
+              <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" download="Anurag-Raghuwanshi-Resume.pdf" class="btn btn-primary">
+                <span>Download Resume</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </a>
+              <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <span>View in Browser</span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-columns-grid">
+          <!-- Column 1: Education -->
+          <div class="resume-card">
+            <div class="resume-card-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <div>
+                <h3>Academic Education</h3>
+                <p>Computer Science & Engineering</p>
+              </div>
+            </div>
+
+            <div class="resume-timeline">
+              <!-- Degree -->
+              <div class="resume-item">
+                <span class="item-year">Expected 2027</span>
+                <h4 class="item-title">Bachelor of Engineering in CSIT</h4>
+                <div class="item-sub">Chameli Devi Group of Institutions, Indore</div>
+                <div class="score-pill">Current Score: 66%</div>
+                <p class="item-desc">Comprehensive training in Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, and Operating Systems.</p>
+              </div>
+
+              <!-- Class XII -->
+              <div class="resume-item">
+                <span class="item-year">2023</span>
+                <h4 class="item-title">Higher Secondary Education (Class XII)</h4>
+                <div class="item-sub">Simple R.K. Education School, Bareli</div>
+                <div class="score-pill">Score: 75%</div>
+                <p class="item-desc">Focused on Science and Mathematics foundation.</p>
+              </div>
+
+              <!-- Class X -->
+              <div class="resume-item">
+                <span class="item-year">2021</span>
+                <h4 class="item-title">Secondary Education (Class X)</h4>
+                <div class="item-sub">Simple R.K. Education School, Bareli</div>
+                <div class="score-pill">Score: 80%</div>
+                <p class="item-desc">Strong foundational academics and sports leadership.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Certifications, Achievements & Soft Skills -->
+          <div class="resume-card">
+            <div class="resume-card-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              </div>
+              <div>
+                <h3>Certifications & Honors</h3>
+                <p>Industry-recognized credentials</p>
+              </div>
+            </div>
+
+            <!-- Certifications List -->
+            <div class="certifications-list">
+              <div class="cert-item">
+                <div class="cert-badge">☕ Java</div>
+                <div class="cert-content">
+                  <strong>NPTEL — Programming in Java Certification</strong>
+                  <span>Issued 2024 • Rigorous OOP & Java fundamentals</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-badge">⚛️ Frontend</div>
+                <div class="cert-content">
+                  <strong>Introduction to Frontend Development</strong>
+                  <span>Coursera • HTML5, CSS3, Modern UI/UX Architecture</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-badge">💻 C++</div>
+                <div class="cert-content">
+                  <strong>C++ Internship Program</strong>
+                  <span>Codsoft • Practical algorithmic problem solving & data structures</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-badge">🗄️ DBMS</div>
+                <div class="cert-content">
+                  <strong>Database Management System Basics</strong>
+                  <span>Coursera • Relational database design, queries & indexing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sports Achievement -->
+            <div class="achievement-box">
+              <div class="achieve-icon">🏆</div>
+              <div class="achieve-content">
+                <strong>State Level Handball Championship (2020)</strong>
+                <p>Represented institution at the state level championship, demonstrating competitive drive, disciplined teamwork, and situational leadership under pressure.</p>
+              </div>
+            </div>
+
+            <!-- Soft Skills Pills -->
+            <div class="soft-skills-container">
+              <span class="soft-title">Core Interpersonal Strengths:</span>
+              <div class="soft-tags">
+                <span class="soft-tag">Communication</span>
+                <span class="soft-tag">Teamwork</span>
+                <span class="soft-tag">Adaptability</span>
+                <span class="soft-tag">Problem Solving</span>
+                <span class="soft-tag">Quick Learning</span>
+                <span class="soft-tag">Time Management</span>
+                <span class="soft-tag">Leadership</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REAL RESUME PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">ENGINEERED WORK & BUILDS</div>
+          <h2 class="section-title">Featured <span class="text-accent">Projects</span></h2>
+          <p class="section-desc">Full-stack applications developed by Anurag Raghuwanshi using MERN stack, REST APIs, and modern responsive design.</p>
+
+          <!-- Filter Tabs -->
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-tab active" data-filter="all">All Projects</button>
+            <button class="filter-tab" data-filter="mern">MERN Stack</button>
+            <button class="filter-tab" data-filter="frontend">Frontend & React</button>
+            <button class="filter-tab" data-filter="uiux">UI/UX Case Study</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Smart Task Management System -->
+          <article class="project-card" data-category="mern frontend">
+            <div class="project-image-box">
+              <div class="project-banner crypto-banner">
+                <div class="banner-badge">MERN Full-Stack</div>
+                <div class="banner-preview-content">
+                  <div class="banner-icon-circle">📋</div>
+                  <span class="banner-title">Smart Task Management</span>
+                  <span class="banner-sub">500+ Database Records Managed</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <h3 class="project-title">Smart Task Management System</h3>
+              <p class="project-description">
+                Developed a full-stack MERN application with secure authentication, full CRUD operations, and personalized task dashboards. Integrated MongoDB to manage 500+ task records, improving backend query performance, and designed accessible UI components.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-orange open-modal" data-modal="modal-task">
+                  <span>View Project Specs</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+                <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="project-action-link">GitHub Repo →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Campus Event Booking Platform -->
+          <article class="project-card" data-category="mern frontend">
+            <div class="project-image-box">
+              <div class="project-banner ai-banner">
+                <div class="banner-badge">MERN Platform</div>
+                <div class="banner-preview-content">
+                  <div class="banner-icon-circle">🎟️</div>
+                  <span class="banner-title">Campus Event Booking</span>
+                  <span class="banner-sub">Digital Ticketing & Admin Suite</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">MERN Stack</span>
+                <span class="tag">REST APIs</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Admin Suite</span>
+              </div>
+              <h3 class="project-title">Campus Event Booking Platform</h3>
+              <p class="project-description">
+                Built a MERN-based platform enabling students to discover, register for, and manage college events digitally. Developed an admin dashboard for participant tracking and booking management using REST APIs with reusable React components.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-orange open-modal" data-modal="modal-event">
+                  <span>View Project Specs</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+                <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="project-action-link">GitHub Repo →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Restaurant Finder & Review System -->
+          <article class="project-card" data-category="mern frontend">
+            <div class="project-image-box">
+              <div class="project-banner store-banner">
+                <div class="banner-badge">Discovery Engine</div>
+                <div class="banner-preview-content">
+                  <div class="banner-icon-circle">🍽️</div>
+                  <span class="banner-title">Restaurant Finder & Reviews</span>
+                  <span class="banner-sub">Interactive Search & Ratings</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <h3 class="project-title">Restaurant Finder & Review System</h3>
+              <p class="project-description">
+                Developed a comprehensive restaurant discovery platform with dynamic search filters, ratings, and customer review functionality. Integrated MongoDB for restaurant details and user activity, enhanced with responsive UI/UX components.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-orange open-modal" data-modal="modal-restaurant">
+                  <span>View Project Specs</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+                <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="project-action-link">GitHub Repo →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: VIDA V1 Pro Smart EV Companion (Featured UI/UX) -->
+          <article class="project-card" data-category="uiux frontend">
+            <div class="project-image-box">
+              <div class="project-banner ev-banner">
+                <div class="banner-badge">Case Study</div>
+                <div class="banner-preview-content">
+                  <div class="banner-icon-circle">⚡</div>
+                  <span class="banner-title">VIDA V1 Pro Companion</span>
+                  <span class="banner-sub">Connected Smart Telemetry UI</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">High-Contrast Dark</span>
+                <span class="tag">Interaction Design</span>
+              </div>
+              <h3 class="project-title">Smart EV Companion App Case Study</h3>
+              <p class="project-description">
+                High-contrast EV telemetry mobile experience featuring real-time battery status, trip diagnostics, and custom safety alerts designed for ambient night riding.
+              </p>
+              <div class="project-footer">
+                <button class="btn-text-orange open-modal" data-modal="modal-ev">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+                <a href="#case-study" class="project-action-link">Interactive Simulator →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">TECHNICAL COMPETENCIES</div>
+          <h2 class="section-title">Skills & <span class="text-accent">Tooling</span></h2>
+          <p class="section-desc">Technologies, languages, and frameworks practiced and applied across production builds.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3>Programming Languages</h3>
+                <p>Foundations & Data Structures</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Java (NPTEL Certified)</span>
+              <span class="skill-pill">C++ (Codsoft)</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">React</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Frontend & UI -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <div>
+                <h3>Frontend Development</h3>
+                <p>Component architecture & UI/UX</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">HTML5 & Semantic Markup</span>
+              <span class="skill-pill">CSS3 & Grid / Flexbox</span>
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">Web Accessibility (a11y)</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Backend & Databases -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div>
+                <h3>Backend & Databases</h3>
+                <p>Scalable APIs & storage</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">Database Query Optimization</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Core CS & Tools -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon orange">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <div>
+                <h3>Core CS & Developer Tools</h3>
+                <p>Architecture, version control & systems</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Data Structures & Algorithms</span>
+              <span class="skill-pill">Object-Oriented Programming (OOP)</span>
+              <span class="skill-pill">DBMS & SQL Architecture</span>
+              <span class="skill-pill">Operating Systems</span>
+              <span class="skill-pill">Git & GitHub</span>
+              <span class="skill-pill">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY SPOTLIGHT: SMART EV COMPANION (Reference image celebration) -->
+    <section class="section case-study-section" id="case-study">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">FEATURED CASE STUDY SPOTLIGHT</div>
+          <h2 class="section-title">VIDA V1 Pro <span class="text-accent">Smart EV</span> Companion</h2>
+          <p class="section-desc">
+            An end-to-end connected mobility experience designed for rapid at-a-glance telemetry, high-contrast night riding safety, and seamless vehicle diagnostics.
+          </p>
+        </div>
+
+        <div class="ev-showcase-card">
+          <div class="ev-card-grid">
+            <!-- Left: Interactive Mobile Mockup Simulator -->
+            <div class="ev-phone-col">
+              <div class="phone-frame">
+                <div class="phone-header">
+                  <span class="phone-time">9:30</span>
+                  <div class="dynamic-island"></div>
+                  <div class="phone-icons">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="16" height="10" rx="2" ry="2"/><line x1="22" y1="11" x2="22" y2="13"/></svg>
+                  </div>
+                </div>
+
+                <div class="phone-app-content">
+                  <!-- App Bar -->
+                  <div class="app-top-row">
+                    <div class="app-brand-v">V</div>
+                    <div class="app-welcome-wrap">
+                      <span class="app-sub-greeting">Welcome</span>
+                      <strong class="app-user-name">Anurag</strong>
+                    </div>
+                    <div class="app-icons-right">
+                      <button class="app-mini-btn" title="Search"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
+                      <button class="app-mini-btn" title="Bluetooth Connected"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5"/></svg></button>
+                    </div>
+                  </div>
+
+                  <!-- Scooter Visual Stage -->
+                  <div class="scooter-stage">
+                    <div class="scooter-glow"></div>
+                    <!-- Scooter Illustration / Silhouette -->
+                    <div class="scooter-graphic">
+                      <div class="scooter-body-orange"></div>
+                      <div class="scooter-seat"></div>
+                      <div class="scooter-wheel wheel-front"></div>
+                      <div class="scooter-wheel wheel-rear"></div>
+                    </div>
+                    <div class="scooter-label-row">
+                      <span class="scooter-title">VIDA V1 Pro</span>
+                      <span class="scooter-status-dot">● Connected</span>
+                    </div>
+                  </div>
+
+                  <!-- Telemetry Grid -->
+                  <div class="telemetry-grid">
+                    <div class="telem-box">
+                      <div class="telem-icon">⚡</div>
+                      <div class="telem-val" id="evBatteryVal">97%</div>
+                      <div class="telem-lbl">Battery</div>
+                    </div>
+                    <div class="telem-box">
+                      <div class="telem-icon">⚙️</div>
+                      <div class="telem-val" id="evHealthVal">89%</div>
+                      <div class="telem-lbl">Engine Health</div>
+                    </div>
+                    <div class="telem-box">
+                      <div class="telem-icon">🗺️</div>
+                      <div class="telem-val" id="evRangeVal">60KM</div>
+                      <div class="telem-lbl">KM Range</div>
+                    </div>
+                  </div>
+
+                  <!-- Interactive Mode Selector -->
+                  <div class="mode-selector">
+                    <span class="mode-label">Drive Mode</span>
+                    <div class="mode-buttons">
+                      <button class="mode-btn" data-mode="eco">ECO</button>
+                      <button class="mode-btn active" data-mode="ride">RIDE</button>
+                      <button class="mode-btn" data-mode="sport">SPORT</button>
+                    </div>
+                  </div>
+
+                  <!-- Recent Ride Strip -->
+                  <div class="recent-ride-box">
+                    <div class="ride-top">
+                      <span class="ride-header">Recent Rides</span>
+                      <a href="#projects" class="see-all-btn">See All</a>
+                    </div>
+                    <div class="ride-details">
+                      <div class="ride-km">23KM <span class="km-sub">Total</span></div>
+                      <div class="ride-route">Navi Sangvi → Kalewadi → Pune City</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Design System & Case Study Story -->
+            <div class="ev-details-col">
+              <div class="case-badge">UX ARCHITECTURE & DESIGN SYSTEM</div>
+              <h3 class="ev-headline">Redefining Connected EV Telemetry with High-Contrast Dark UI</h3>
+              <p class="ev-body-text">
+                Riding in variable sunlight and dark conditions requires a specialized visual hierarchy. We adopted an ultra-deep matte obsidian background with high-visibility electric orange (<code class="color-code">#FF5500</code>) for critical alerts, battery states, and active metrics.
+              </p>
+
+              <!-- Color Palette Chips -->
+              <div class="palette-showcase">
+                <div class="palette-title">Color System Breakdown:</div>
+                <div class="palette-row">
+                  <div class="color-chip">
+                    <span class="chip-preview" style="background: #08080A; border: 1px solid rgba(255,255,255,0.2);"></span>
+                    <div class="chip-info">
+                      <span class="chip-name">Matte Pitch</span>
+                      <span class="chip-hex">#08080A</span>
+                    </div>
+                  </div>
+                  <div class="color-chip">
+                    <span class="chip-preview" style="background: #FF5500; box-shadow: 0 0 10px rgba(255,85,0,0.6);"></span>
+                    <div class="chip-info">
+                      <span class="chip-name">Electric Orange</span>
+                      <span class="chip-hex">#FF5500</span>
+                    </div>
+                  </div>
+                  <div class="color-chip">
+                    <span class="chip-preview" style="background: #17171E;"></span>
+                    <div class="chip-info">
+                      <span class="chip-name">Slate Surface</span>
+                      <span class="chip-hex">#17171E</span>
+                    </div>
+                  </div>
+                  <div class="color-chip">
+                    <span class="chip-preview" style="background: #FFFFFF;"></span>
+                    <div class="chip-info">
+                      <span class="chip-name">Pure White</span>
+                      <span class="chip-hex">#FFFFFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature Highlights -->
+              <div class="case-points-grid">
+                <div class="case-point">
+                  <div class="point-num">01</div>
+                  <div>
+                    <h4>Sub-Second Glanceability</h4>
+                    <p>Drivers can assess key diagnostics (battery, range, status) in under 300ms without distraction.</p>
+                  </div>
+                </div>
+                <div class="case-point">
+                  <div class="point-num">02</div>
+                  <div>
+                    <h4>Accessible Contrast Ratio</h4>
+                    <p>WCAG AAA compliant contrast for all primary navigation markers and ride telemetries.</p>
+                  </div>
+                </div>
+                <div class="case-point">
+                  <div class="point-num">03</div>
+                  <div>
+                    <h4>Fluid Mode Switching</h4>
+                    <p>Interactive real-time range estimation updates automatically when changing driving modes.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ev-action-links">
+                <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <span>Connect on LinkedIn</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                  <span>Explore Other Projects</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-left">
+            <div class="section-tag">ABOUT ME</div>
+            <h2 class="section-title">Building Scalable Apps, <br><span class="text-accent">Optimizing Modern Web.</span></h2>
+            <p class="about-desc">
+              I am Anurag Raghuwanshi, a motivated and detail-oriented Computer Science undergraduate with hands-on experience building responsive full-stack web applications using the MERN stack.
+            </p>
+            <p class="about-desc">
+              I specialize in developing scalable UI components, REST APIs, and database-driven applications, backed by a strong foundation in Data Structures, Object-Oriented Programming (OOP), DBMS, and SQL. I am passionate about creating user-friendly digital experiences through modern UI/UX principles and optimized frontend performance.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div>
+                  <h4>Full-Stack MERN Architecture</h4>
+                  <p>Developing end-to-end applications from MongoDB models and Express controllers to interactive React frontends.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <div>
+                  <h4>Robust Java & Core CS</h4>
+                  <p>Certified in Java (NPTEL 2024), skilled in object-oriented system design, data structures, and database optimization.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+                </div>
+                <div>
+                  <h4>Modern UI/UX Principles</h4>
+                  <p>Crafting high-contrast accessible layouts, responsive views, and fluid micro-interactions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <div class="quick-facts-card">
+              <div class="facts-header">
+                <h3>Contact & Profile Information</h3>
+                <span class="status-badge-inline">Available</span>
+              </div>
+
+              <ul class="facts-list">
+                <li>
+                  <span class="fact-label">Location:</span>
+                  <span class="fact-value">Indore & Bhopal, India</span>
+                </li>
+                <li>
+                  <span class="fact-label">Email:</span>
+                  <span class="fact-value">
+                    <a href="mailto:anuragraghuwanshi077@gmail.com" class="link-orange">anuragraghuwanshi077@gmail.com</a>
+                  </span>
+                </li>
+                <li>
+                  <span class="fact-label">Phone:</span>
+                  <span class="fact-value">
+                    <a href="tel:+917389327950" class="link-orange">+91 7389327950</a>
+                  </span>
+                </li>
+                <li>
+                  <span class="fact-label">Education:</span>
+                  <span class="fact-value">B.E. in CSIT — Chameli Devi Group of Institutions, Indore (2027)</span>
+                </li>
+                <li>
+                  <span class="fact-label">LinkedIn:</span>
+                  <span class="fact-value">
+                    <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="link-orange">
+                      linkedin.com/in/anurag-raghuwanshi
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <span class="fact-label">GitHub:</span>
+                  <span class="fact-value">
+                    <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="link-orange">
+                      github.com/Anurag-Raghuwanshi
+                    </a>
+                  </span>
+                </li>
+              </ul>
+
+              <div class="quote-box">
+                <p>"Committed to building accessible, high-performance web products backed by clean architecture and robust database design."</p>
+              </div>
+
+              <div class="resume-download-box">
+                <a href="assets/Anurag-Raghuwanshi-Resume.pdf" target="_blank" download="Anurag-Raghuwanshi-Resume.pdf" class="btn btn-primary btn-block">
+                  <span>Download Resume (PDF)</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-grid">
+            <!-- Left Info -->
+            <div class="contact-info-col">
+              <div class="section-tag">GET IN TOUCH</div>
+              <h2 class="contact-title">Let's Discuss Projects <br><span class="text-accent">& Opportunities.</span></h2>
+              <p class="contact-lead">
+                I am actively seeking software engineering, full-stack MERN, and frontend opportunities. Feel free to connect directly via email, phone, or LinkedIn!
+              </p>
+
+              <div class="contact-methods">
+                <!-- Email Card -->
+                <a href="mailto:anuragraghuwanshi077@gmail.com" class="contact-method-card">
+                  <div class="method-icon orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Direct Email</span>
+                    <strong class="method-val">anuragraghuwanshi077@gmail.com</strong>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="arrow-out"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+
+                <!-- Phone Card -->
+                <a href="tel:+917389327950" class="contact-method-card">
+                  <div class="method-icon orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Phone & WhatsApp</span>
+                    <strong class="method-val">+91 7389327950</strong>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="arrow-out"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+
+                <!-- LinkedIn Card -->
+                <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                  <div class="method-icon orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">LinkedIn Profile</span>
+                    <strong class="method-val">linkedin.com/in/anurag-raghuwanshi-b587ba33b</strong>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="arrow-out"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+
+                <!-- GitHub Card -->
+                <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                  <div class="method-icon orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">GitHub Repository</span>
+                    <strong class="method-val">github.com/Anurag-Raghuwanshi</strong>
+                  </div>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" class="arrow-out"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Interactive Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-title">Send a Direct Message</div>
+                
+                <div class="form-group">
+                  <label for="senderName" class="form-label">Your Name</label>
+                  <input type="text" id="senderName" class="form-input" placeholder="e.g. Hiring Manager / Recruiter" required>
+                  <span class="form-error-msg" id="nameError">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderEmail" class="form-label">Your Email</label>
+                  <input type="email" id="senderEmail" class="form-input" placeholder="e.g. talent@company.com" required>
+                  <span class="form-error-msg" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="projectType" class="form-label">Subject / Opportunity</label>
+                  <select id="projectType" class="form-input">
+                    <option value="fullstack">Full-Stack / MERN Developer Role</option>
+                    <option value="frontend">Frontend / React Developer Role</option>
+                    <option value="java">Java Developer Opportunity</option>
+                    <option value="internship">Internship / Apprenticeship</option>
+                    <option value="other">General Project Inquiry</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="senderMessage" class="form-label">Message</label>
+                  <textarea id="senderMessage" class="form-input form-textarea" rows="4" placeholder="Hi Anurag, we reviewed your resume and projects and would love to connect..." required></textarea>
+                  <span class="form-error-msg" id="messageError">Please write a short message.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-mark">A</span>
+          <span class="logo-text">ANURAG<span class="dot-accent">.</span></span>
+        </a>
+        <p class="footer-copy">
+          Full Stack Developer (MERN & Java) based in Indore & Bhopal, India. Passionate about building fast, accessible web applications and modern UI systems.
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-social-links">
+          <a href="https://www.linkedin.com/in/anurag-raghuwanshi-b587ba33b" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com/Anurag-Raghuwanshi" target="_blank" rel="noopener noreferrer" class="social-circle-btn" title="GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </div>
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Anurag Raghuwanshi. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMessage">Thank you! Your message has been received.</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
